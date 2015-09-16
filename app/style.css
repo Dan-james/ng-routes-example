@@ -1,0 +1,39 @@
+* {
+	list-style: none;
+	text-decoration: none;
+	color: inherit;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: rgb(200,200,200)
+}
+
+#navbar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 70px;
+	width: 100%;
+	background: rgba(0,0,0,0.8);
+	color: white;
+}
+
+#navbar ul {
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+
+main {
+	padding-top: 100px;
+}
+
+.green {
+	color: green;
+	/*font-size: 32px;*/
+}
